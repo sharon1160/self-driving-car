@@ -3,7 +3,7 @@ import random
 
 pygame.init()
 window = pygame.display.set_mode((890, 590))
-track = pygame.image.load('nuevo.png')
+track = pygame.image.load('mytrack.png')
 car = pygame.image.load('tesla.png')
 car2 = pygame.image.load('tesla.png')
 car = pygame.transform.scale(car, (30, 60))
